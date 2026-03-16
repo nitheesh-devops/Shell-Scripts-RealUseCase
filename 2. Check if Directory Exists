@@ -1,0 +1,8 @@
+read -p "Enter directory name: " dir
+
+if [ -d "$dir" ]
+then
+  echo "Directory exists"
+else
+  echo "Directory not found"
+fi
