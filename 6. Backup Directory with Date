@@ -1,0 +1,5 @@
+read -p "Enter directory to backup: " dir
+
+tar -czf backup_$(date +%F).tar.gz "$dir"
+
+echo "Backup completed"
